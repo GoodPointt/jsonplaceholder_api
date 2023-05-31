@@ -2,7 +2,7 @@ import Notiflix from "notiflix";
 import { getData } from "../api";
 import { makeFirstTableMarkup } from "../markup";
 import { jsTbodyEl } from "../refs";
-import { addMarkup } from "../utils";
+import { addMarkup, removeFromLoacalStorage } from "../utils";
 
 async function init() {
   try {

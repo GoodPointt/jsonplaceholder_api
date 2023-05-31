@@ -1,6 +1,12 @@
 .navbar {
+  background-color: #297bcf;
   border-bottom: 1px solid #ececec;
   margin-bottom: 50px;
+}
+
+.nav-link {
+  color: #fff;
+  font-weight: bold;
 }
 
 .albums {
@@ -9,4 +15,30 @@
 
 .card {
   width: calc(100% / 4 - 30px);
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #ced4da;
+  background-color: #efe817;
+  color: #000;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #edb928;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn__back {
+  margin-bottom: 15px;
 }

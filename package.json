@@ -1,7 +1,7 @@
 {
   "name": "webpack",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "dev": "webpack --mode development",
     "start": "webpack-dev-server --mode development --open",
@@ -9,7 +9,7 @@
     "deploy": "gh-pages -d build"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dmytro Petyshyn, dev6012@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.7.1",
@@ -27,11 +27,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GoodPointt/jsonplaceholder_api.git"
+    "url": "git+https://github.com/GoodPointt/jsonplaceholder-api78-2.git"
   },
   "bugs": {
-    "url": "https://github.com/GoodPointt/jsonplaceholder_api/issues"
+    "url": "https://github.com/GoodPointt/jsonplaceholder-api78-2/issues"
   },
-  "homepage": "https://github.com/GoodPointt/jsonplaceholder_api#readme",
+  "homepage": "https://github.com/GoodPointt/jsonplaceholder-api78-2#readme",
   "description": ""
 }
