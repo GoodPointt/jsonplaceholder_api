@@ -7,6 +7,6 @@ export function goBack() {
 }
 
 export function goForward() {
-  // console.log("2");
+  console.log("2");
   history.forward();
 }

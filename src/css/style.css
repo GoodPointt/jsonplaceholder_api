@@ -42,3 +42,13 @@
 .btn__back {
   margin-bottom: 15px;
 }
+
+td,
+li {
+  cursor: pointer;
+}
+
+td:hover,
+li:hover {
+  color: #297bcf;
+}
